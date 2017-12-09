@@ -1,6 +1,7 @@
 # Cingle
 
 [Demo](https://cingle.herokuapp.com/) https://cingle.herokuapp.com/
+[Design](https://cingle.herokuapp.com/design) https://cingle.herokuapp.com/design
 
 ## Development server
 
