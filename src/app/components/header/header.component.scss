@@ -1,0 +1,43 @@
+
+.header{
+	background: linear-gradient(rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 0.15)); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 0.15)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 0.15)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.0) 50%, rgba(0, 0, 0, 0.15)); /* For Firefox 3.6 to 15 */
+    nav{
+    	padding: 0;
+    }
+    a{
+    	color: #fff;
+    	font-size: 18px;
+    	font-weight: 500;
+
+    }
+    .navbar-brand{
+    	font-family: 'SandyText-bold';
+    	font-size: 48px;
+    }
+    .menu-bar{
+    	li{
+    		a{
+    			padding: 38px 49px;
+    			transition: 0.4s ease ;
+    			&:hover{
+    				background-color: #fff;
+    				color: #213a6a;
+    			}
+    			&:focus{
+    				color: #fff;
+    			}
+    		}
+
+    	}
+    	.nav-item.active{
+    		background-color: #fff;
+    		color: #213a6a;
+    	}
+    }
+    
+    
+    
+}

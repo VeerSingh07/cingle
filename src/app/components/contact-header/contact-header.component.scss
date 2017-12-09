@@ -1,0 +1,36 @@
+.top_header{
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 0px;
+    ul{
+        padding-left:0;
+        margin-bottom: 0;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        color: #213a6a;
+        img{
+            vertical-align: top;
+        }
+    }
+    .contact_info{
+        li{
+           margin-right: 20px;
+           img{
+                margin-right: 10px;
+            }
+           &:last-child{
+            margin-right: 0;
+           }
+        }
+    }
+    .social_icons{
+        li{
+           margin-left:20px;
+           
+        }
+    }
+}
