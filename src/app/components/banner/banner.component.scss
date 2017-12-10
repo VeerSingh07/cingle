@@ -1,6 +1,40 @@
 .header_banner{
 	background-image: url('/assets/images/banner_bg.png'); 
-	background-size: cover;
-	background-position: center;
-	min-height: 657px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	min-height: 750px;
+	.banner_content{
+		margin-top: 40px;
+		color: #fff;
+		.sprater_b{
+			width: 80%;
+			margin: 0 auto;
+			.b-top{
+				height: 1px;
+				background: linear-gradient(to right, transparent,#47679c,transparent);
+			}
+			.b-bottom{
+				height: 1px;
+				background: linear-gradient(to right, transparent,#bdcde1,transparent);
+			}
+			
+			
+		}
+		text-transform: uppercase;
+		h4{
+			font-size: 40px;
+			line-height: 40px;
+			font-weight: 600;
+			margin-bottom: 0;
+			margin-top: 40px;
+		}
+		h1{
+			font-size: 90px;
+			line-height: 78px;
+			font-weight: 600;
+			margin-bottom: 40px;
+			margin-top: 0;
+		}
+	}
 }

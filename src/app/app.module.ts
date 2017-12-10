@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { DesignComponent } from './pages/design/design.component';
 import { routing } from './app.routes';
 import { FixedTopComponent } from './components/fixed-top/fixed-top.component';
+import { AboutComponent } from './components/about/about.component';
+import { TitleHeadingComponent } from './components/title-heading/title-heading.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FixedTopComponent } from './components/fixed-top/fixed-top.component';
     BannerComponent,
     HomeComponent,
     DesignComponent,
-    FixedTopComponent
+    FixedTopComponent,
+    AboutComponent,
+    TitleHeadingComponent
   ],
   imports: [
     BrowserModule,
