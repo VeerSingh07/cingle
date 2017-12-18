@@ -13,6 +13,8 @@ import { routing } from './app.routes';
 import { FixedTopComponent } from './components/fixed-top/fixed-top.component';
 import { AboutComponent } from './components/about/about.component';
 import { TitleHeadingComponent } from './components/title-heading/title-heading.component';
+import { CardComponent } from './components/card/card.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TitleHeadingComponent } from './components/title-heading/title-heading.
     DesignComponent,
     FixedTopComponent,
     AboutComponent,
-    TitleHeadingComponent
+    TitleHeadingComponent,
+    CardComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
